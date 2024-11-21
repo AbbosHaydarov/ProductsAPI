@@ -1,0 +1,26 @@
+@url=http://localhost:5019
+
+GET  {{url}}/api/product/
+content-type: application/json
+
+{  
+    "id": "2af4afb1-7511-4bbc-b12b-806eae9e3830"
+}
+
+###
+POST  {{url}}/api/product
+content-type: application/json
+
+{  
+    "name": "banan",
+    "price": 25000.25,
+    "status": "Active"
+}
+
+###
+GET  {{url}}/api/product
+content-type: application/json
+
+{  
+    
+}
